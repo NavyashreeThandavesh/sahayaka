@@ -1,10 +1,10 @@
 package com.qwinix.sahayaka.repo;
 
-import com.qwinix.sahayaka.model.Tickets;
+import com.qwinix.sahayaka.model.Ticket;
 
 public interface ITickets {
-	Tickets getAllDetails(int id);
+	Ticket getAllDetails(int id);
 //	Tickets findByPhoneNum(int id);
-	Tickets createTicket(int id);
-	Tickets updateTicket(int id);
+	Ticket createTicket(int id);
+	Ticket updateTicket(int id);
 }
